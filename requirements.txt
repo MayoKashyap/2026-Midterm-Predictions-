@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+xgboost
+scikit-learn
+shap
+pymc
+arviz
+plotly
+streamlit
+jupyter
+requests
+fredapi
