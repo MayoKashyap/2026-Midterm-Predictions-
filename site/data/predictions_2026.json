@@ -1,0 +1,9572 @@
+[
+  {
+    "state_po": "AL",
+    "district": 1,
+    "pred_dem_share": 0.3656,
+    "win_prob_dem": 0.0049,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1115
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0542
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0167
+      }
+    ]
+  },
+  {
+    "state_po": "AL",
+    "district": 2,
+    "pred_dem_share": 0.5705,
+    "win_prob_dem": 0.9125,
+    "rating": "Safe D",
+    "dem_share_2022": 0.2968,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0166
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "AL",
+    "district": 3,
+    "pred_dem_share": 0.339,
+    "win_prob_dem": 0.001,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2609,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1146
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0799
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0175
+      }
+    ]
+  },
+  {
+    "state_po": "AL",
+    "district": 4,
+    "pred_dem_share": 0.3049,
+    "win_prob_dem": 0.0001,
+    "rating": "Safe R",
+    "dem_share_2022": 0.1395,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1557
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0711
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "AL",
+    "district": 5,
+    "pred_dem_share": 0.3657,
+    "win_prob_dem": 0.0049,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3058,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0958
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0784
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "AL",
+    "district": 6,
+    "pred_dem_share": 0.4192,
+    "win_prob_dem": 0.0601,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0854
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0375
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "AL",
+    "district": 7,
+    "pred_dem_share": 0.6276,
+    "win_prob_dem": 0.9929,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6464,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0644
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0272
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0187
+      }
+    ]
+  },
+  {
+    "state_po": "AK",
+    "district": 0,
+    "pred_dem_share": 0.5238,
+    "win_prob_dem": 0.6767,
+    "rating": "Lean D",
+    "dem_share_2022": 0.4984,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.024
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0223
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 1,
+    "pred_dem_share": 0.5151,
+    "win_prob_dem": 0.6139,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4956,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0251
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0247
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 2,
+    "pred_dem_share": 0.5105,
+    "win_prob_dem": 0.58,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4613,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0362
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0268
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 3,
+    "pred_dem_share": 0.6825,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7698,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1095
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0367
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 4,
+    "pred_dem_share": 0.5709,
+    "win_prob_dem": 0.9136,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5611,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.017
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 5,
+    "pred_dem_share": 0.4823,
+    "win_prob_dem": 0.3668,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3972,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0494
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0254
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 6,
+    "pred_dem_share": 0.5224,
+    "win_prob_dem": 0.6666,
+    "rating": "Lean D",
+    "dem_share_2022": 0.4925,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0105
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 7,
+    "pred_dem_share": 0.6265,
+    "win_prob_dem": 0.9925,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6454,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0641
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0265
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0187
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 8,
+    "pred_dem_share": 0.4839,
+    "win_prob_dem": 0.3783,
+    "rating": "Toss-up",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0517
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0247
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      }
+    ]
+  },
+  {
+    "state_po": "AZ",
+    "district": 9,
+    "pred_dem_share": 0.4406,
+    "win_prob_dem": 0.1265,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0829
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0216
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0216
+      }
+    ]
+  },
+  {
+    "state_po": "AR",
+    "district": 1,
+    "pred_dem_share": 0.3876,
+    "win_prob_dem": 0.0153,
+    "rating": "Safe R",
+    "dem_share_2022": 0.262,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1061
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0422
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "AR",
+    "district": 2,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3699,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0512
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0208
+      }
+    ]
+  },
+  {
+    "state_po": "AR",
+    "district": 3,
+    "pred_dem_share": 0.4648,
+    "win_prob_dem": 0.2492,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3406,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0532
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0264
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0229
+      }
+    ]
+  },
+  {
+    "state_po": "AR",
+    "district": 4,
+    "pred_dem_share": 0.4195,
+    "win_prob_dem": 0.0608,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2695,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0932
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0299
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 1,
+    "pred_dem_share": 0.4733,
+    "win_prob_dem": 0.3041,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3793,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0532
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 2,
+    "pred_dem_share": 0.6868,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.744,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1026
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0477
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 3,
+    "pred_dem_share": 0.5133,
+    "win_prob_dem": 0.6008,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4635,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0257
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0238
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 4,
+    "pred_dem_share": 0.6539,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": 0.678,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0903
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.029
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0176
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 5,
+    "pred_dem_share": 0.4757,
+    "win_prob_dem": 0.3198,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3869,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0497
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0242
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0212
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 6,
+    "pred_dem_share": 0.592,
+    "win_prob_dem": 0.9615,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5595,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0377
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0164
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 7,
+    "pred_dem_share": 0.6436,
+    "win_prob_dem": 0.9971,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6826,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0842
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0266
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0169
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 8,
+    "pred_dem_share": 0.6902,
+    "win_prob_dem": 0.9999,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7573,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1132
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0406
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 9,
+    "pred_dem_share": 0.5669,
+    "win_prob_dem": 0.9008,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5482,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0154
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 10,
+    "pred_dem_share": 0.6539,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0903
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.029
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0176
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 11,
+    "pred_dem_share": 0.739,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8395,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1724
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0335
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.017
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 12,
+    "pred_dem_share": 0.7378,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.9047,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1902
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0202
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0147
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 13,
+    "pred_dem_share": 0.5509,
+    "win_prob_dem": 0.836,
+    "rating": "Lean D",
+    "dem_share_2022": 0.4979,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0195
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0156
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 14,
+    "pred_dem_share": 0.6667,
+    "win_prob_dem": 0.9993,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6934,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1012
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.03
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 15,
+    "pred_dem_share": 0.6837,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1071
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.039
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 16,
+    "pred_dem_share": 0.6487,
+    "win_prob_dem": 0.9979,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0955
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0196
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0174
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 17,
+    "pred_dem_share": 0.6736,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7093,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1067
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0306
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 18,
+    "pred_dem_share": 0.6443,
+    "win_prob_dem": 0.9972,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6585,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0865
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0233
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0178
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 19,
+    "pred_dem_share": 0.6546,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6865,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0893
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0323
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0166
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 20,
+    "pred_dem_share": 0.3657,
+    "win_prob_dem": 0.0049,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3275,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0958
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0784
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 21,
+    "pred_dem_share": 0.5683,
+    "win_prob_dem": 0.9055,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5418,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0148
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 22,
+    "pred_dem_share": 0.518,
+    "win_prob_dem": 0.6353,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4848,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0264
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.024
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0199
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 23,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3897,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0504
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0252
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 24,
+    "pred_dem_share": 0.6252,
+    "win_prob_dem": 0.992,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6057,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0635
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0247
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0198
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 25,
+    "pred_dem_share": 0.5743,
+    "win_prob_dem": 0.9234,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5738,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0195
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0146
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 26,
+    "pred_dem_share": 0.592,
+    "win_prob_dem": 0.9615,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5453,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.038
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0162
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 27,
+    "pred_dem_share": 0.5683,
+    "win_prob_dem": 0.9055,
+    "rating": "Safe D",
+    "dem_share_2022": 0.4676,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0127
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 28,
+    "pred_dem_share": 0.6359,
+    "win_prob_dem": 0.9955,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6624,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.081
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0207
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0177
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 29,
+    "pred_dem_share": 0.6679,
+    "win_prob_dem": 0.9994,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1018
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0311
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 30,
+    "pred_dem_share": 0.6729,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1034
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.033
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 31,
+    "pred_dem_share": 0.6165,
+    "win_prob_dem": 0.9875,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5954,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.049
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0307
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 32,
+    "pred_dem_share": 0.6539,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6917,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0903
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0289
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0179
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 33,
+    "pred_dem_share": 0.6017,
+    "win_prob_dem": 0.9747,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5771,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0321
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0303
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 34,
+    "pred_dem_share": 0.6771,
+    "win_prob_dem": 0.9997,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1307
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0166
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0141
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 35,
+    "pred_dem_share": 0.5949,
+    "win_prob_dem": 0.966,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5736,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0389
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0198
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 36,
+    "pred_dem_share": 0.6748,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6975,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1073
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 37,
+    "pred_dem_share": 0.7066,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.157
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0179
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0164
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 38,
+    "pred_dem_share": 0.6165,
+    "win_prob_dem": 0.9875,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5809,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.049
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0307
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 39,
+    "pred_dem_share": 0.581,
+    "win_prob_dem": 0.9404,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5767,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.023
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0182
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 40,
+    "pred_dem_share": 0.5133,
+    "win_prob_dem": 0.6008,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4316,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0257
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0238
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 41,
+    "pred_dem_share": 0.5097,
+    "win_prob_dem": 0.5736,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4765,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0265
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.023
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 42,
+    "pred_dem_share": 0.6546,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6837,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0888
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0326
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 43,
+    "pred_dem_share": 0.7119,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7733,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1408
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0347
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 44,
+    "pred_dem_share": 0.6734,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7221,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0965
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0419
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0186
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 45,
+    "pred_dem_share": 0.5556,
+    "win_prob_dem": 0.8577,
+    "rating": "Safe D",
+    "dem_share_2022": 0.4759,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0196
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0183
+      },
+      {
+        "feature": "incumbent_party",
+        "impact": 0.0072
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 46,
+    "pred_dem_share": 0.6265,
+    "win_prob_dem": 0.9925,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6179,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0653
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0253
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0187
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 47,
+    "pred_dem_share": 0.5683,
+    "win_prob_dem": 0.9055,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5172,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0127
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 48,
+    "pred_dem_share": 0.5066,
+    "win_prob_dem": 0.5502,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3964,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0286
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0275
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0234
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 49,
+    "pred_dem_share": 0.5683,
+    "win_prob_dem": 0.9055,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5263,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0127
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 50,
+    "pred_dem_share": 0.6385,
+    "win_prob_dem": 0.9961,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6284,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0794
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0245
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0181
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 51,
+    "pred_dem_share": 0.6236,
+    "win_prob_dem": 0.9913,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6186,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0628
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0235
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "CA",
+    "district": 52,
+    "pred_dem_share": 0.6322,
+    "win_prob_dem": 0.9945,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6667,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.068
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0287
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0181
+      }
+    ]
+  },
+  {
+    "state_po": "CO",
+    "district": 1,
+    "pred_dem_share": 0.7149,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8208,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1414
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0371
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0177
+      }
+    ]
+  },
+  {
+    "state_po": "CO",
+    "district": 2,
+    "pred_dem_share": 0.6679,
+    "win_prob_dem": 0.9994,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7142,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1017
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      }
+    ]
+  },
+  {
+    "state_po": "CO",
+    "district": 3,
+    "pred_dem_share": 0.517,
+    "win_prob_dem": 0.6279,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4992,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0261
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0252
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      }
+    ]
+  },
+  {
+    "state_po": "CO",
+    "district": 4,
+    "pred_dem_share": 0.4852,
+    "win_prob_dem": 0.3877,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.375,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0495
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0239
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0187
+      }
+    ]
+  },
+  {
+    "state_po": "CO",
+    "district": 5,
+    "pred_dem_share": 0.5127,
+    "win_prob_dem": 0.5968,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4186,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0267
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0221
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0189
+      }
+    ]
+  },
+  {
+    "state_po": "CO",
+    "district": 6,
+    "pred_dem_share": 0.6236,
+    "win_prob_dem": 0.9913,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6182,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0641
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0223
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "CO",
+    "district": 7,
+    "pred_dem_share": 0.592,
+    "win_prob_dem": 0.9615,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5766,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0377
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0165
+      }
+    ]
+  },
+  {
+    "state_po": "CO",
+    "district": 8,
+    "pred_dem_share": 0.5399,
+    "win_prob_dem": 0.7786,
+    "rating": "Lean D",
+    "dem_share_2022": 0.5036,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0208
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      },
+      {
+        "feature": "incumbent_party",
+        "impact": -0.0044
+      }
+    ]
+  },
+  {
+    "state_po": "CT",
+    "district": 1,
+    "pred_dem_share": 0.6252,
+    "win_prob_dem": 0.992,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6129,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0651
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0241
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      }
+    ]
+  },
+  {
+    "state_po": "CT",
+    "district": 2,
+    "pred_dem_share": 0.5772,
+    "win_prob_dem": 0.9312,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5917,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0212
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0149
+      }
+    ]
+  },
+  {
+    "state_po": "CT",
+    "district": 3,
+    "pred_dem_share": 0.6131,
+    "win_prob_dem": 0.9852,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5829,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0451
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "CT",
+    "district": 4,
+    "pred_dem_share": 0.6246,
+    "win_prob_dem": 0.9917,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6005,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0634
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0244
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "CT",
+    "district": 5,
+    "pred_dem_share": 0.5683,
+    "win_prob_dem": 0.9055,
+    "rating": "Safe D",
+    "dem_share_2022": 0.501,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0127
+      }
+    ]
+  },
+  {
+    "state_po": "DE",
+    "district": 0,
+    "pred_dem_share": 0.592,
+    "win_prob_dem": 0.9615,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5635,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0377
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0164
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 1,
+    "pred_dem_share": 0.4286,
+    "win_prob_dem": 0.0849,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3214,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0818
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0299
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0204
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 2,
+    "pred_dem_share": 0.48,
+    "win_prob_dem": 0.35,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.402,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.049
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0209
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 3,
+    "pred_dem_share": 0.4812,
+    "win_prob_dem": 0.359,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3673,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.048
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0253
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0209
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 4,
+    "pred_dem_share": 0.5137,
+    "win_prob_dem": 0.6041,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3955,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.027
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0221
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 5,
+    "pred_dem_share": 0.4739,
+    "win_prob_dem": 0.3081,
+    "rating": "Lean R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0441
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0276
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0242
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 6,
+    "pred_dem_share": 0.4364,
+    "win_prob_dem": 0.1106,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0733
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 7,
+    "pred_dem_share": 0.5116,
+    "win_prob_dem": 0.5882,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4147,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0267
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0215
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.019
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 8,
+    "pred_dem_share": 0.4715,
+    "win_prob_dem": 0.2921,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3509,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0537
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0246
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0211
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 9,
+    "pred_dem_share": 0.5743,
+    "win_prob_dem": 0.9234,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5364,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0195
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0146
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 10,
+    "pred_dem_share": 0.6246,
+    "win_prob_dem": 0.9917,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5994,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0634
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0243
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 11,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3596,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0504
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0252
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 12,
+    "pred_dem_share": 0.4143,
+    "win_prob_dem": 0.0497,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2963,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0881
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0403
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0217
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 13,
+    "pred_dem_share": 0.5152,
+    "win_prob_dem": 0.6148,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4588,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0264
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0253
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 14,
+    "pred_dem_share": 0.5752,
+    "win_prob_dem": 0.9258,
+    "rating": "Safe D",
+    "dem_share_2022": 0.569,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0196
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0148
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 15,
+    "pred_dem_share": 0.5139,
+    "win_prob_dem": 0.6057,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4146,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.026
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0177
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 16,
+    "pred_dem_share": 0.5066,
+    "win_prob_dem": 0.5502,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3785,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0286
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0275
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0234
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 17,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3575,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0488
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0288
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 18,
+    "pred_dem_share": 0.451,
+    "win_prob_dem": 0.1729,
+    "rating": "Lean R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0714
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0216
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 19,
+    "pred_dem_share": 0.4364,
+    "win_prob_dem": 0.1106,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3199,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0733
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 20,
+    "pred_dem_share": 0.5604,
+    "win_prob_dem": 0.8773,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7231,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1033
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0913
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0292
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 21,
+    "pred_dem_share": 0.4979,
+    "win_prob_dem": 0.4839,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.365,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0291
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0272
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0238
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 22,
+    "pred_dem_share": 0.5697,
+    "win_prob_dem": 0.9098,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5511,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0175
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0133
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 23,
+    "pred_dem_share": 0.5702,
+    "win_prob_dem": 0.9115,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5242,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0144
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 24,
+    "pred_dem_share": 0.6546,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7179,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0888
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0327
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 25,
+    "pred_dem_share": 0.5705,
+    "win_prob_dem": 0.9125,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5509,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0166
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 26,
+    "pred_dem_share": 0.4199,
+    "win_prob_dem": 0.0618,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2913,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0853
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0383
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.022
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 27,
+    "pred_dem_share": 0.5121,
+    "win_prob_dem": 0.5922,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4271,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.027
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0231
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "FL",
+    "district": 28,
+    "pred_dem_share": 0.4739,
+    "win_prob_dem": 0.3081,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3631,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0438
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0287
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0244
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 1,
+    "pred_dem_share": 0.4757,
+    "win_prob_dem": 0.3198,
+    "rating": "Lean R",
+    "dem_share_2022": 0.4085,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0497
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0242
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0212
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 2,
+    "pred_dem_share": 0.5743,
+    "win_prob_dem": 0.9234,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5497,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0195
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0146
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 3,
+    "pred_dem_share": 0.4273,
+    "win_prob_dem": 0.0809,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3125,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0842
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0301
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 4,
+    "pred_dem_share": 0.7119,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7849,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1408
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0347
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 5,
+    "pred_dem_share": 0.7244,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8248,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1458
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0459
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0188
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 6,
+    "pred_dem_share": 0.6871,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.3778,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.11
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.04
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 7,
+    "pred_dem_share": 0.4729,
+    "win_prob_dem": 0.3009,
+    "rating": "Lean R",
+    "dem_share_2022": 0.6087,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0504
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0236
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 8,
+    "pred_dem_share": 0.4259,
+    "win_prob_dem": 0.077,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3142,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0858
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0327
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0229
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 9,
+    "pred_dem_share": 0.4239,
+    "win_prob_dem": 0.0717,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2765,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0881
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0324
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0223
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 10,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3547,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0491
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0277
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0243
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 11,
+    "pred_dem_share": 0.4677,
+    "win_prob_dem": 0.2671,
+    "rating": "Lean R",
+    "dem_share_2022": 0.374,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0521
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.025
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0228
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 12,
+    "pred_dem_share": 0.5066,
+    "win_prob_dem": 0.5502,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.404,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0278
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0275
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0232
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 13,
+    "pred_dem_share": 0.6803,
+    "win_prob_dem": 0.9997,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8177,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1019
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0425
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      }
+    ]
+  },
+  {
+    "state_po": "GA",
+    "district": 14,
+    "pred_dem_share": 0.44,
+    "win_prob_dem": 0.1244,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3414,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0788
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0248
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0217
+      }
+    ]
+  },
+  {
+    "state_po": "HI",
+    "district": 1,
+    "pred_dem_share": 0.6415,
+    "win_prob_dem": 0.9967,
+    "rating": "Safe D",
+    "dem_share_2022": 0.737,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0632
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0447
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.016
+      }
+    ]
+  },
+  {
+    "state_po": "HI",
+    "district": 2,
+    "pred_dem_share": 0.6392,
+    "win_prob_dem": 0.9963,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6379,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0714
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0337
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0169
+      }
+    ]
+  },
+  {
+    "state_po": "ID",
+    "district": 1,
+    "pred_dem_share": 0.4059,
+    "win_prob_dem": 0.0351,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2696,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1141
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0199
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "ID",
+    "district": 2,
+    "pred_dem_share": 0.4588,
+    "win_prob_dem": 0.2139,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3641,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0538
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0312
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0227
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 1,
+    "pred_dem_share": 0.6539,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6704,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0898
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0287
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 2,
+    "pred_dem_share": 0.6534,
+    "win_prob_dem": 0.9984,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6713,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0887
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0315
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 3,
+    "pred_dem_share": 0.6534,
+    "win_prob_dem": 0.9984,
+    "rating": "Safe D",
+    "dem_share_2022": 0.685,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0887
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0315
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 4,
+    "pred_dem_share": 0.6601,
+    "win_prob_dem": 0.999,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7091,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0839
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0436
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0157
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 5,
+    "pred_dem_share": 0.6679,
+    "win_prob_dem": 0.9994,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7071,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1017
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0307
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 6,
+    "pred_dem_share": 0.5709,
+    "win_prob_dem": 0.9136,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5436,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.017
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 7,
+    "pred_dem_share": 0.7488,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1415
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0717
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.018
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 8,
+    "pred_dem_share": 0.5752,
+    "win_prob_dem": 0.9258,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5689,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0197
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0146
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 9,
+    "pred_dem_share": 0.6679,
+    "win_prob_dem": 0.9994,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7169,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1013
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0311
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 10,
+    "pred_dem_share": 0.6236,
+    "win_prob_dem": 0.9913,
+    "rating": "Safe D",
+    "dem_share_2022": 0.63,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0641
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0226
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 11,
+    "pred_dem_share": 0.5778,
+    "win_prob_dem": 0.9328,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5645,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0204
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0171
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 12,
+    "pred_dem_share": 0.3736,
+    "win_prob_dem": 0.0075,
+    "rating": "Safe R",
+    "dem_share_2022": 0.25,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1075
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0578
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 13,
+    "pred_dem_share": 0.5781,
+    "win_prob_dem": 0.9334,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5662,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0215
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0149
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 14,
+    "pred_dem_share": 0.5697,
+    "win_prob_dem": 0.9098,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5416,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0175
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0133
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 15,
+    "pred_dem_share": 0.3689,
+    "win_prob_dem": 0.0059,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2886,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0916
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0787
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0198
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 16,
+    "pred_dem_share": 0.4054,
+    "win_prob_dem": 0.0344,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3367,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0775
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0607
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "IL",
+    "district": 17,
+    "pred_dem_share": 0.5696,
+    "win_prob_dem": 0.9098,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5199,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0163
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 1,
+    "pred_dem_share": 0.5695,
+    "win_prob_dem": 0.9093,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5284,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0196
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 2,
+    "pred_dem_share": 0.4691,
+    "win_prob_dem": 0.2759,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3342,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0497
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0272
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 3,
+    "pred_dem_share": 0.4429,
+    "win_prob_dem": 0.1361,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3152,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0823
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0219
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0208
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 4,
+    "pred_dem_share": 0.4291,
+    "win_prob_dem": 0.0863,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3178,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0858
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0293
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0227
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 5,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3893,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0504
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 6,
+    "pred_dem_share": 0.4377,
+    "win_prob_dem": 0.1155,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3247,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0825
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0232
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0215
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 7,
+    "pred_dem_share": 0.6748,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6863,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1072
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0318
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 8,
+    "pred_dem_share": 0.4266,
+    "win_prob_dem": 0.079,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3242,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0842
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.03
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.022
+      }
+    ]
+  },
+  {
+    "state_po": "IN",
+    "district": 9,
+    "pred_dem_share": 0.4273,
+    "win_prob_dem": 0.0809,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3459,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0842
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0301
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "IA",
+    "district": 1,
+    "pred_dem_share": 0.5316,
+    "win_prob_dem": 0.7284,
+    "rating": "Lean D",
+    "dem_share_2022": 0.466,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0219
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0206
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      }
+    ]
+  },
+  {
+    "state_po": "IA",
+    "district": 2,
+    "pred_dem_share": 0.5127,
+    "win_prob_dem": 0.5962,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4588,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0273
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0231
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "IA",
+    "district": 3,
+    "pred_dem_share": 0.5151,
+    "win_prob_dem": 0.6139,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4965,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0251
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0247
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      }
+    ]
+  },
+  {
+    "state_po": "IA",
+    "district": 4,
+    "pred_dem_share": 0.4364,
+    "win_prob_dem": 0.1108,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3112,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0829
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0231
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0215
+      }
+    ]
+  },
+  {
+    "state_po": "KS",
+    "district": 1,
+    "pred_dem_share": 0.4295,
+    "win_prob_dem": 0.0876,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3233,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0851
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0282
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0211
+      }
+    ]
+  },
+  {
+    "state_po": "KS",
+    "district": 2,
+    "pred_dem_share": 0.4823,
+    "win_prob_dem": 0.3668,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4236,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0495
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0254
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "KS",
+    "district": 3,
+    "pred_dem_share": 0.5774,
+    "win_prob_dem": 0.9318,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5623,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0205
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0153
+      }
+    ]
+  },
+  {
+    "state_po": "KS",
+    "district": 4,
+    "pred_dem_share": 0.4733,
+    "win_prob_dem": 0.3041,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3666,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0532
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "KY",
+    "district": 1,
+    "pred_dem_share": 0.3876,
+    "win_prob_dem": 0.0153,
+    "rating": "Safe R",
+    "dem_share_2022": 0.251,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1061
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0422
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "KY",
+    "district": 2,
+    "pred_dem_share": 0.4195,
+    "win_prob_dem": 0.0608,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2814,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0932
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0299
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "KY",
+    "district": 3,
+    "pred_dem_share": 0.6165,
+    "win_prob_dem": 0.9875,
+    "rating": "Safe D",
+    "dem_share_2022": 0.62,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0489
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0306
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "KY",
+    "district": 4,
+    "pred_dem_share": 0.3642,
+    "win_prob_dem": 0.0045,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3231,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0943
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0792
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "KY",
+    "district": 5,
+    "pred_dem_share": 0.3049,
+    "win_prob_dem": 0.0001,
+    "rating": "Safe R",
+    "dem_share_2022": 0.1783,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1557
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0711
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "KY",
+    "district": 6,
+    "pred_dem_share": 0.4974,
+    "win_prob_dem": 0.4804,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3491,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0301
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0274
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0242
+      }
+    ]
+  },
+  {
+    "state_po": "LA",
+    "district": 1,
+    "pred_dem_share": 0.4133,
+    "win_prob_dem": 0.0477,
+    "rating": "Safe R",
+    "dem_share_2022": 0.257,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1053
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0236
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "LA",
+    "district": 2,
+    "pred_dem_share": 0.6438,
+    "win_prob_dem": 0.9972,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7711,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0911
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0271
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0151
+      }
+    ]
+  },
+  {
+    "state_po": "LA",
+    "district": 3,
+    "pred_dem_share": 0.3741,
+    "win_prob_dem": 0.0077,
+    "rating": "Safe R",
+    "dem_share_2022": 0.204,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1022
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0604
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "LA",
+    "district": 4,
+    "pred_dem_share": 0.3332,
+    "win_prob_dem": 0.0007,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1255
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0768
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0209
+      }
+    ]
+  },
+  {
+    "state_po": "LA",
+    "district": 5,
+    "pred_dem_share": 0.4144,
+    "win_prob_dem": 0.05,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2439,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0858
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0403
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0213
+      }
+    ]
+  },
+  {
+    "state_po": "LA",
+    "district": 6,
+    "pred_dem_share": 0.592,
+    "win_prob_dem": 0.9615,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0377
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0165
+      }
+    ]
+  },
+  {
+    "state_po": "ME",
+    "district": 1,
+    "pred_dem_share": 0.6246,
+    "win_prob_dem": 0.9917,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6296,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0646
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0231
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "ME",
+    "district": 2,
+    "pred_dem_share": 0.5501,
+    "win_prob_dem": 0.8324,
+    "rating": "Lean D",
+    "dem_share_2022": 0.5305,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0194
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0181
+      }
+    ]
+  },
+  {
+    "state_po": "MD",
+    "district": 1,
+    "pred_dem_share": 0.4807,
+    "win_prob_dem": 0.3552,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4421,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0505
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0209
+      }
+    ]
+  },
+  {
+    "state_po": "MD",
+    "district": 2,
+    "pred_dem_share": 0.6165,
+    "win_prob_dem": 0.9875,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5931,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.049
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0307
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "MD",
+    "district": 3,
+    "pred_dem_share": 0.6236,
+    "win_prob_dem": 0.9913,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6025,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0643
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0225
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      }
+    ]
+  },
+  {
+    "state_po": "MD",
+    "district": 4,
+    "pred_dem_share": 0.7572,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.9033,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1954
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0292
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "MD",
+    "district": 5,
+    "pred_dem_share": 0.6546,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": 0.66,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0888
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0326
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "MD",
+    "district": 6,
+    "pred_dem_share": 0.5683,
+    "win_prob_dem": 0.9055,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5479,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0173
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0127
+      }
+    ]
+  },
+  {
+    "state_po": "MD",
+    "district": 7,
+    "pred_dem_share": 0.7084,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8224,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1451
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0317
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0154
+      }
+    ]
+  },
+  {
+    "state_po": "MD",
+    "district": 8,
+    "pred_dem_share": 0.7099,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8154,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1418
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0349
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0155
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 1,
+    "pred_dem_share": 0.5827,
+    "win_prob_dem": 0.9441,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6157,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0362
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0178
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.017
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 2,
+    "pred_dem_share": 0.5941,
+    "win_prob_dem": 0.9648,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6627,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0551
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0176
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0107
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 3,
+    "pred_dem_share": 0.5941,
+    "win_prob_dem": 0.9648,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6356,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0563
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0176
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0095
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 4,
+    "pred_dem_share": 0.5941,
+    "win_prob_dem": 0.9648,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0563
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0176
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0095
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 5,
+    "pred_dem_share": 0.6512,
+    "win_prob_dem": 0.9982,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7405,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1006
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0184
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0173
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 6,
+    "pred_dem_share": 0.5941,
+    "win_prob_dem": 0.9648,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6414,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0563
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0176
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0095
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 7,
+    "pred_dem_share": 0.7066,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8484,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.157
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0179
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0164
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 8,
+    "pred_dem_share": 0.6448,
+    "win_prob_dem": 0.9973,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6982,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0833
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0294
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0161
+      }
+    ]
+  },
+  {
+    "state_po": "MA",
+    "district": 9,
+    "pred_dem_share": 0.5778,
+    "win_prob_dem": 0.9328,
+    "rating": "Safe D",
+    "dem_share_2022": 0.592,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0198
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0169
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 1,
+    "pred_dem_share": 0.4769,
+    "win_prob_dem": 0.3287,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3842,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0544
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0255
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 2,
+    "pred_dem_share": 0.4362,
+    "win_prob_dem": 0.1098,
+    "rating": "Safe R",
+    "dem_share_2022": 0.35,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0812
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0215
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 3,
+    "pred_dem_share": 0.5697,
+    "win_prob_dem": 0.9098,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5667,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0175
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0133
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 4,
+    "pred_dem_share": 0.5147,
+    "win_prob_dem": 0.6116,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4386,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0258
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0171
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 5,
+    "pred_dem_share": 0.4648,
+    "win_prob_dem": 0.2492,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3591,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0532
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0264
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0229
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 6,
+    "pred_dem_share": 0.6276,
+    "win_prob_dem": 0.9929,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6589,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0656
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.026
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0187
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 7,
+    "pred_dem_share": 0.5264,
+    "win_prob_dem": 0.6945,
+    "rating": "Lean D",
+    "dem_share_2022": 0.5276,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0227
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0204
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0109
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 8,
+    "pred_dem_share": 0.5568,
+    "win_prob_dem": 0.8627,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5535,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0276
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0184
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.016
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 9,
+    "pred_dem_share": 0.4216,
+    "win_prob_dem": 0.0659,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3417,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0866
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0352
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0224
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 10,
+    "pred_dem_share": 0.5177,
+    "win_prob_dem": 0.6333,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4975,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0258
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0247
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 11,
+    "pred_dem_share": 0.6165,
+    "win_prob_dem": 0.9875,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6132,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.049
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0307
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 12,
+    "pred_dem_share": 0.6845,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7296,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1129
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0354
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0186
+      }
+    ]
+  },
+  {
+    "state_po": "MI",
+    "district": 13,
+    "pred_dem_share": 0.6769,
+    "win_prob_dem": 0.9997,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7479,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1093
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0314
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "MN",
+    "district": 1,
+    "pred_dem_share": 0.5121,
+    "win_prob_dem": 0.5922,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4401,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0275
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0233
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0195
+      }
+    ]
+  },
+  {
+    "state_po": "MN",
+    "district": 2,
+    "pred_dem_share": 0.5743,
+    "win_prob_dem": 0.9234,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5271,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0195
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0146
+      }
+    ]
+  },
+  {
+    "state_po": "MN",
+    "district": 3,
+    "pred_dem_share": 0.6147,
+    "win_prob_dem": 0.9863,
+    "rating": "Safe D",
+    "dem_share_2022": 0.596,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0625
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0213
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0142
+      }
+    ]
+  },
+  {
+    "state_po": "MN",
+    "district": 4,
+    "pred_dem_share": 0.6534,
+    "win_prob_dem": 0.9984,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6769,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0887
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0315
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "MN",
+    "district": 5,
+    "pred_dem_share": 0.7289,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7519,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1607
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0307
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.018
+      }
+    ]
+  },
+  {
+    "state_po": "MN",
+    "district": 6,
+    "pred_dem_share": 0.4769,
+    "win_prob_dem": 0.3285,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3788,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0435
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0254
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0247
+      }
+    ]
+  },
+  {
+    "state_po": "MN",
+    "district": 7,
+    "pred_dem_share": 0.4144,
+    "win_prob_dem": 0.05,
+    "rating": "Safe R",
+    "dem_share_2022": 0.292,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0881
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.038
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0213
+      }
+    ]
+  },
+  {
+    "state_po": "MN",
+    "district": 8,
+    "pred_dem_share": 0.5063,
+    "win_prob_dem": 0.5483,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4276,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0294
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0272
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0231
+      }
+    ]
+  },
+  {
+    "state_po": "MS",
+    "district": 1,
+    "pred_dem_share": 0.4266,
+    "win_prob_dem": 0.079,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2703,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0842
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.03
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.022
+      }
+    ]
+  },
+  {
+    "state_po": "MS",
+    "district": 2,
+    "pred_dem_share": 0.6246,
+    "win_prob_dem": 0.9917,
+    "rating": "Safe D",
+    "dem_share_2022": 0.601,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0646
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0231
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "MS",
+    "district": 3,
+    "pred_dem_share": 0.3832,
+    "win_prob_dem": 0.0123,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2926,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.081
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0757
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "MS",
+    "district": 4,
+    "pred_dem_share": 0.3999,
+    "win_prob_dem": 0.0271,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2512,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1175
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0219
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "MO",
+    "district": 1,
+    "pred_dem_share": 0.7108,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7496,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1422
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0362
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0155
+      }
+    ]
+  },
+  {
+    "state_po": "MO",
+    "district": 2,
+    "pred_dem_share": 0.5147,
+    "win_prob_dem": 0.6116,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4395,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0262
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0173
+      }
+    ]
+  },
+  {
+    "state_po": "MO",
+    "district": 3,
+    "pred_dem_share": 0.4691,
+    "win_prob_dem": 0.2759,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3489,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0503
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0267
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "MO",
+    "district": 4,
+    "pred_dem_share": 0.3942,
+    "win_prob_dem": 0.0209,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2694,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1133
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0317
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "MO",
+    "district": 5,
+    "pred_dem_share": 0.6246,
+    "win_prob_dem": 0.9917,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6261,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0646
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0231
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "MO",
+    "district": 6,
+    "pred_dem_share": 0.4076,
+    "win_prob_dem": 0.0378,
+    "rating": "Safe R",
+    "dem_share_2022": 0.281,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1011
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0334
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "MO",
+    "district": 7,
+    "pred_dem_share": 0.3942,
+    "win_prob_dem": 0.0209,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2742,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1133
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0317
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "MO",
+    "district": 8,
+    "pred_dem_share": 0.3656,
+    "win_prob_dem": 0.0049,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2237,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1115
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0542
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0167
+      }
+    ]
+  },
+  {
+    "state_po": "MT",
+    "district": 1,
+    "pred_dem_share": 0.5171,
+    "win_prob_dem": 0.6292,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4836,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0262
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0254
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0199
+      }
+    ]
+  },
+  {
+    "state_po": "MT",
+    "district": 2,
+    "pred_dem_share": 0.4273,
+    "win_prob_dem": 0.0809,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2628,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0842
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0301
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "NE",
+    "district": 1,
+    "pred_dem_share": 0.5121,
+    "win_prob_dem": 0.5922,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4209,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.027
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0231
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "NE",
+    "district": 2,
+    "pred_dem_share": 0.5413,
+    "win_prob_dem": 0.7866,
+    "rating": "Lean D",
+    "dem_share_2022": 0.4867,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0208
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0052
+      }
+    ]
+  },
+  {
+    "state_po": "NE",
+    "district": 3,
+    "pred_dem_share": 0.3339,
+    "win_prob_dem": 0.0007,
+    "rating": "Safe R",
+    "dem_share_2022": 0.1679,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1197
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0776
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0166
+      }
+    ]
+  },
+  {
+    "state_po": "NV",
+    "district": 1,
+    "pred_dem_share": 0.5728,
+    "win_prob_dem": 0.9193,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5288,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0166
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "NV",
+    "district": 2,
+    "pred_dem_share": 0.4602,
+    "win_prob_dem": 0.2221,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3876,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0689
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0278
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0251
+      }
+    ]
+  },
+  {
+    "state_po": "NV",
+    "district": 3,
+    "pred_dem_share": 0.5669,
+    "win_prob_dem": 0.9008,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5198,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0154
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      }
+    ]
+  },
+  {
+    "state_po": "NV",
+    "district": 4,
+    "pred_dem_share": 0.5728,
+    "win_prob_dem": 0.9193,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5242,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0166
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "NH",
+    "district": 1,
+    "pred_dem_share": 0.5728,
+    "win_prob_dem": 0.9193,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5406,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0166
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "NH",
+    "district": 2,
+    "pred_dem_share": 0.5702,
+    "win_prob_dem": 0.9115,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5587,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0145
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 1,
+    "pred_dem_share": 0.6165,
+    "win_prob_dem": 0.9875,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6391,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.049
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0307
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 2,
+    "pred_dem_share": 0.5121,
+    "win_prob_dem": 0.5922,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4044,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0274
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0231
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 3,
+    "pred_dem_share": 0.5705,
+    "win_prob_dem": 0.9125,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5597,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0166
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 4,
+    "pred_dem_share": 0.4424,
+    "win_prob_dem": 0.1339,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3192,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0729
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0285
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 5,
+    "pred_dem_share": 0.5774,
+    "win_prob_dem": 0.9318,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5525,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0195
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0153
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 6,
+    "pred_dem_share": 0.5781,
+    "win_prob_dem": 0.9334,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5835,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0215
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0149
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 7,
+    "pred_dem_share": 0.5297,
+    "win_prob_dem": 0.7163,
+    "rating": "Lean D",
+    "dem_share_2022": 0.486,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0238
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0204
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0091
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 8,
+    "pred_dem_share": 0.6352,
+    "win_prob_dem": 0.9953,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7585,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0789
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0206
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 9,
+    "pred_dem_share": 0.5702,
+    "win_prob_dem": 0.9115,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5578,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0145
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 10,
+    "pred_dem_share": 0.6771,
+    "win_prob_dem": 0.9997,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7949,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1307
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0166
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0142
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 11,
+    "pred_dem_share": 0.5752,
+    "win_prob_dem": 0.9258,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5949,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0196
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0148
+      }
+    ]
+  },
+  {
+    "state_po": "NJ",
+    "district": 12,
+    "pred_dem_share": 0.6246,
+    "win_prob_dem": 0.9917,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6374,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0634
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0243
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "NM",
+    "district": 1,
+    "pred_dem_share": 0.581,
+    "win_prob_dem": 0.9404,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5576,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0229
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "NM",
+    "district": 2,
+    "pred_dem_share": 0.5669,
+    "win_prob_dem": 0.9008,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5035,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0154
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      }
+    ]
+  },
+  {
+    "state_po": "NM",
+    "district": 3,
+    "pred_dem_share": 0.5743,
+    "win_prob_dem": 0.9234,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5816,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0195
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0146
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 1,
+    "pred_dem_share": 0.5132,
+    "win_prob_dem": 0.6005,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4449,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0257
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0248
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 2,
+    "pred_dem_share": 0.5121,
+    "win_prob_dem": 0.5922,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3927,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.027
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0231
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0184
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 3,
+    "pred_dem_share": 0.5669,
+    "win_prob_dem": 0.9008,
+    "rating": "Safe D",
+    "dem_share_2022": 0.4624,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0155
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 4,
+    "pred_dem_share": 0.5682,
+    "win_prob_dem": 0.9051,
+    "rating": "Safe D",
+    "dem_share_2022": 0.482,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0151
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 5,
+    "pred_dem_share": 0.6868,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7521,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1124
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0381
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 6,
+    "pred_dem_share": 0.5959,
+    "win_prob_dem": 0.9675,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6395,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0326
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0225
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0187
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 7,
+    "pred_dem_share": 0.6894,
+    "win_prob_dem": 0.9999,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8069,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1101
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0428
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0177
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 8,
+    "pred_dem_share": 0.6902,
+    "win_prob_dem": 0.9999,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7172,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1128
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0411
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 9,
+    "pred_dem_share": 0.6859,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1103
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0392
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0181
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 10,
+    "pred_dem_share": 0.7141,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8468,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1372
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0442
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0179
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 11,
+    "pred_dem_share": 0.4739,
+    "win_prob_dem": 0.3081,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3823,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0438
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0287
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0244
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 12,
+    "pred_dem_share": 0.732,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8197,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1655
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0334
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0161
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 13,
+    "pred_dem_share": 0.7141,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1372
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0442
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0179
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 14,
+    "pred_dem_share": 0.6679,
+    "win_prob_dem": 0.9994,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7208,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1017
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0307
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 15,
+    "pred_dem_share": 0.7086,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8279,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1419
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0306
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0176
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 16,
+    "pred_dem_share": 0.6601,
+    "win_prob_dem": 0.999,
+    "rating": "Safe D",
+    "dem_share_2022": 0.643,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.084
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0435
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0157
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 17,
+    "pred_dem_share": 0.5297,
+    "win_prob_dem": 0.7163,
+    "rating": "Lean D",
+    "dem_share_2022": 0.4968,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0238
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0204
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0103
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 18,
+    "pred_dem_share": 0.5774,
+    "win_prob_dem": 0.9318,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5067,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0197
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.015
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 19,
+    "pred_dem_share": 0.5649,
+    "win_prob_dem": 0.8939,
+    "rating": "Safe D",
+    "dem_share_2022": 0.4922,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0187
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0131
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 20,
+    "pred_dem_share": 0.6131,
+    "win_prob_dem": 0.9852,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5507,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0451
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.031
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 21,
+    "pred_dem_share": 0.4769,
+    "win_prob_dem": 0.3285,
+    "rating": "Lean R",
+    "dem_share_2022": 0.4006,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0488
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0212
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 22,
+    "pred_dem_share": 0.5696,
+    "win_prob_dem": 0.9098,
+    "rating": "Safe D",
+    "dem_share_2022": 0.4951,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0163
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 23,
+    "pred_dem_share": 0.4636,
+    "win_prob_dem": 0.2423,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3508,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0479
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0327
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0227
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 24,
+    "pred_dem_share": 0.4583,
+    "win_prob_dem": 0.2112,
+    "rating": "Lean R",
+    "dem_share_2022": 0.343,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0529
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0328
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0227
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 25,
+    "pred_dem_share": 0.6165,
+    "win_prob_dem": 0.9875,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5387,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.049
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0304
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "NY",
+    "district": 26,
+    "pred_dem_share": 0.6323,
+    "win_prob_dem": 0.9945,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6398,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.069
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0272
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 1,
+    "pred_dem_share": 0.5563,
+    "win_prob_dem": 0.8604,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5237,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0207
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0182
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0182
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 2,
+    "pred_dem_share": 0.6534,
+    "win_prob_dem": 0.9984,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6468,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0887
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0315
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 3,
+    "pred_dem_share": 0.4188,
+    "win_prob_dem": 0.0593,
+    "rating": "Safe R",
+    "dem_share_2022": 0.331,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0737
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0521
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 4,
+    "pred_dem_share": 0.6825,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6691,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1095
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0367
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0186
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 5,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3685,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0512
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0208
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 6,
+    "pred_dem_share": 0.4176,
+    "win_prob_dem": 0.0565,
+    "rating": "Safe R",
+    "dem_share_2022": 0.5447,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0738
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0531
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0223
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 7,
+    "pred_dem_share": 0.5066,
+    "win_prob_dem": 0.5502,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4229,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0289
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0276
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0234
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 8,
+    "pred_dem_share": 0.4823,
+    "win_prob_dem": 0.3668,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3009,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0502
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0254
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 9,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.435,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0504
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 10,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.2732,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0504
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0252
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 11,
+    "pred_dem_share": 0.5116,
+    "win_prob_dem": 0.5882,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4528,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0267
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0215
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.019
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 12,
+    "pred_dem_share": 0.6902,
+    "win_prob_dem": 0.9999,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6275,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1132
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0406
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 13,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.5159,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0514
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0253
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0208
+      }
+    ]
+  },
+  {
+    "state_po": "NC",
+    "district": 14,
+    "pred_dem_share": 0.482,
+    "win_prob_dem": 0.3647,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.5771,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0512
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0248
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0204
+      }
+    ]
+  },
+  {
+    "state_po": "ND",
+    "district": 0,
+    "pred_dem_share": 0.4161,
+    "win_prob_dem": 0.0534,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.087
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0373
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0217
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 1,
+    "pred_dem_share": 0.5696,
+    "win_prob_dem": 0.9098,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5276,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0163
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 2,
+    "pred_dem_share": 0.3952,
+    "win_prob_dem": 0.022,
+    "rating": "Safe R",
+    "dem_share_2022": 0.255,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1221
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0213
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.021
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 3,
+    "pred_dem_share": 0.6748,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7046,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1072
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0318
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 4,
+    "pred_dem_share": 0.4217,
+    "win_prob_dem": 0.066,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3081,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0857
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0349
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0219
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 5,
+    "pred_dem_share": 0.4526,
+    "win_prob_dem": 0.1808,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3309,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0711
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0218
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 6,
+    "pred_dem_share": 0.4346,
+    "win_prob_dem": 0.1041,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3228,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0831
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0252
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0211
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 7,
+    "pred_dem_share": 0.5121,
+    "win_prob_dem": 0.5922,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4464,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0275
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0234
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 8,
+    "pred_dem_share": 0.4691,
+    "win_prob_dem": 0.2759,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3536,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0513
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0248
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0243
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 9,
+    "pred_dem_share": 0.5501,
+    "win_prob_dem": 0.8324,
+    "rating": "Lean D",
+    "dem_share_2022": 0.5663,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0194
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0177
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 10,
+    "pred_dem_share": 0.5129,
+    "win_prob_dem": 0.5981,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3833,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0271
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0234
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.018
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 11,
+    "pred_dem_share": 0.7101,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7775,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.143
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0347
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0151
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 12,
+    "pred_dem_share": 0.4271,
+    "win_prob_dem": 0.0806,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3073,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0853
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0327
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0229
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 13,
+    "pred_dem_share": 0.5649,
+    "win_prob_dem": 0.8939,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5268,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0132
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 14,
+    "pred_dem_share": 0.4727,
+    "win_prob_dem": 0.2997,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3826,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0455
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0273
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0241
+      }
+    ]
+  },
+  {
+    "state_po": "OH",
+    "district": 15,
+    "pred_dem_share": 0.5124,
+    "win_prob_dem": 0.5942,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4304,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0269
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0214
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0202
+      }
+    ]
+  },
+  {
+    "state_po": "OK",
+    "district": 1,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3619,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0494
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0283
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "OK",
+    "district": 2,
+    "pred_dem_share": 0.3544,
+    "win_prob_dem": 0.0026,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2441,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1151
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0592
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0142
+      }
+    ]
+  },
+  {
+    "state_po": "OK",
+    "district": 3,
+    "pred_dem_share": 0.339,
+    "win_prob_dem": 0.001,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2546,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1146
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0799
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0175
+      }
+    ]
+  },
+  {
+    "state_po": "OK",
+    "district": 4,
+    "pred_dem_share": 0.4265,
+    "win_prob_dem": 0.0787,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3325,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0865
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0298
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0224
+      }
+    ]
+  },
+  {
+    "state_po": "OK",
+    "district": 5,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.388,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0504
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0252
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "OR",
+    "district": 1,
+    "pred_dem_share": 0.6878,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6802,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0996
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0518
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "OR",
+    "district": 2,
+    "pred_dem_share": 0.4364,
+    "win_prob_dem": 0.1106,
+    "rating": "Safe R",
+    "dem_share_2022": 0.324,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0733
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      }
+    ]
+  },
+  {
+    "state_po": "OR",
+    "district": 3,
+    "pred_dem_share": 0.6868,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7267,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1124
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0381
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      }
+    ]
+  },
+  {
+    "state_po": "OR",
+    "district": 4,
+    "pred_dem_share": 0.5732,
+    "win_prob_dem": 0.9205,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5399,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0196
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0168
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0159
+      }
+    ]
+  },
+  {
+    "state_po": "OR",
+    "district": 5,
+    "pred_dem_share": 0.5683,
+    "win_prob_dem": 0.9055,
+    "rating": "Safe D",
+    "dem_share_2022": 0.4896,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0127
+      }
+    ]
+  },
+  {
+    "state_po": "OR",
+    "district": 6,
+    "pred_dem_share": 0.5706,
+    "win_prob_dem": 0.9128,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5126,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0148
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0147
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 1,
+    "pred_dem_share": 0.5244,
+    "win_prob_dem": 0.6807,
+    "rating": "Lean D",
+    "dem_share_2022": 0.4513,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0246
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0231
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0222
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 2,
+    "pred_dem_share": 0.6734,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7565,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0965
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0419
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0186
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 3,
+    "pred_dem_share": 0.7378,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1902
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0202
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0147
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 4,
+    "pred_dem_share": 0.6131,
+    "win_prob_dem": 0.9852,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6129,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0451
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 5,
+    "pred_dem_share": 0.6427,
+    "win_prob_dem": 0.997,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6508,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0833
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0244
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 6,
+    "pred_dem_share": 0.5778,
+    "win_prob_dem": 0.9328,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5831,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0198
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 7,
+    "pred_dem_share": 0.5286,
+    "win_prob_dem": 0.709,
+    "rating": "Lean D",
+    "dem_share_2022": 0.5098,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0224
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0202
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 8,
+    "pred_dem_share": 0.5251,
+    "win_prob_dem": 0.6855,
+    "rating": "Lean D",
+    "dem_share_2022": 0.5122,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0229
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0223
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 9,
+    "pred_dem_share": 0.4073,
+    "win_prob_dem": 0.0373,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3069,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0933
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0411
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 10,
+    "pred_dem_share": 0.5251,
+    "win_prob_dem": 0.6855,
+    "rating": "Lean D",
+    "dem_share_2022": 0.4617,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0225
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0219
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 11,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3845,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0491
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0277
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0243
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 12,
+    "pred_dem_share": 0.5954,
+    "win_prob_dem": 0.9667,
+    "rating": "Safe D",
+    "dem_share_2022": 0.562,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0414
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.016
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 13,
+    "pred_dem_share": 0.363,
+    "win_prob_dem": 0.0042,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1137
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0594
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 14,
+    "pred_dem_share": 0.4285,
+    "win_prob_dem": 0.0847,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0841
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0296
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0208
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 15,
+    "pred_dem_share": 0.4073,
+    "win_prob_dem": 0.0373,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3006,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1011
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0336
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 16,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.4064,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0488
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0288
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "PA",
+    "district": 17,
+    "pred_dem_share": 0.5709,
+    "win_prob_dem": 0.9136,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5339,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.017
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "RI",
+    "district": 1,
+    "pred_dem_share": 0.6337,
+    "win_prob_dem": 0.9949,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6415,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.07
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0282
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0181
+      }
+    ]
+  },
+  {
+    "state_po": "RI",
+    "district": 2,
+    "pred_dem_share": 0.5772,
+    "win_prob_dem": 0.9312,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5191,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0213
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0189
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0149
+      }
+    ]
+  },
+  {
+    "state_po": "SC",
+    "district": 1,
+    "pred_dem_share": 0.5119,
+    "win_prob_dem": 0.5902,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4296,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0269
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.023
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0203
+      }
+    ]
+  },
+  {
+    "state_po": "SC",
+    "district": 2,
+    "pred_dem_share": 0.5066,
+    "win_prob_dem": 0.5502,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3991,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0286
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0275
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0232
+      }
+    ]
+  },
+  {
+    "state_po": "SC",
+    "district": 3,
+    "pred_dem_share": 0.3999,
+    "win_prob_dem": 0.0271,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1175
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0219
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "SC",
+    "district": 4,
+    "pred_dem_share": 0.4759,
+    "win_prob_dem": 0.3213,
+    "rating": "Lean R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.053
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0254
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0209
+      }
+    ]
+  },
+  {
+    "state_po": "SC",
+    "district": 5,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.35,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0494
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0283
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "SC",
+    "district": 6,
+    "pred_dem_share": 0.6246,
+    "win_prob_dem": 0.9917,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6211,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0634
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0244
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "SC",
+    "district": 7,
+    "pred_dem_share": 0.4733,
+    "win_prob_dem": 0.3041,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3512,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0532
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "SD",
+    "district": 0,
+    "pred_dem_share": 0.4189,
+    "win_prob_dem": 0.0595,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.096
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0282
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0213
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 1,
+    "pred_dem_share": 0.3176,
+    "win_prob_dem": 0.0002,
+    "rating": "Safe R",
+    "dem_share_2022": 0.201,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.133
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0778
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0146
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 2,
+    "pred_dem_share": 0.416,
+    "win_prob_dem": 0.0532,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3209,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0894
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0372
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0221
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 3,
+    "pred_dem_share": 0.4161,
+    "win_prob_dem": 0.0534,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3063,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.087
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0375
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0219
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 4,
+    "pred_dem_share": 0.3942,
+    "win_prob_dem": 0.0209,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2673,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1133
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0317
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 5,
+    "pred_dem_share": 0.481,
+    "win_prob_dem": 0.3578,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4311,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0512
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0208
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 6,
+    "pred_dem_share": 0.4248,
+    "win_prob_dem": 0.074,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3367,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0881
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0313
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0221
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 7,
+    "pred_dem_share": 0.4823,
+    "win_prob_dem": 0.3668,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.3888,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0494
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0254
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0206
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 8,
+    "pred_dem_share": 0.3999,
+    "win_prob_dem": 0.0271,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2472,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1175
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0219
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "TN",
+    "district": 9,
+    "pred_dem_share": 0.6769,
+    "win_prob_dem": 0.9997,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7276,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1093
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0313
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0186
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 1,
+    "pred_dem_share": 0.339,
+    "win_prob_dem": 0.001,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2192,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1163
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0798
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 2,
+    "pred_dem_share": 0.4588,
+    "win_prob_dem": 0.2139,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3409,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0551
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0299
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0227
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 3,
+    "pred_dem_share": 0.4769,
+    "win_prob_dem": 0.3285,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3787,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0435
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0254
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0247
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 4,
+    "pred_dem_share": 0.4271,
+    "win_prob_dem": 0.0806,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3168,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0852
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0328
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0229
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 5,
+    "pred_dem_share": 0.4691,
+    "win_prob_dem": 0.2759,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3466,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0497
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0272
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 6,
+    "pred_dem_share": 0.4364,
+    "win_prob_dem": 0.1106,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0733
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 7,
+    "pred_dem_share": 0.6236,
+    "win_prob_dem": 0.9913,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6379,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0643
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0225
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0201
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 8,
+    "pred_dem_share": 0.4271,
+    "win_prob_dem": 0.0806,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3097,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0852
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0328
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0229
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 9,
+    "pred_dem_share": 0.6512,
+    "win_prob_dem": 0.9982,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7668,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1006
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0184
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0173
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 10,
+    "pred_dem_share": 0.4733,
+    "win_prob_dem": 0.3041,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3514,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0532
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 11,
+    "pred_dem_share": 0.3496,
+    "win_prob_dem": 0.0019,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1084
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0783
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0181
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 12,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3573,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0494
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0283
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 13,
+    "pred_dem_share": 0.339,
+    "win_prob_dem": 0.001,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2465,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1162
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0798
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 14,
+    "pred_dem_share": 0.4215,
+    "win_prob_dem": 0.0657,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2984,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0881
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0347
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0223
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 15,
+    "pred_dem_share": 0.5072,
+    "win_prob_dem": 0.555,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4568,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0287
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0269
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0221
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 16,
+    "pred_dem_share": 0.6236,
+    "win_prob_dem": 0.9913,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6346,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0641
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0226
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 17,
+    "pred_dem_share": 0.4364,
+    "win_prob_dem": 0.1106,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3352,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0733
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 18,
+    "pred_dem_share": 0.6748,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7297,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1072
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0313
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0196
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 19,
+    "pred_dem_share": 0.339,
+    "win_prob_dem": 0.001,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1163
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0798
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.019
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 20,
+    "pred_dem_share": 0.5941,
+    "win_prob_dem": 0.9648,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6843,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0563
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0176
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0095
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 21,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3716,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0491
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0277
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0243
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 22,
+    "pred_dem_share": 0.4757,
+    "win_prob_dem": 0.3198,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3634,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0497
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0242
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0212
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 23,
+    "pred_dem_share": 0.4979,
+    "win_prob_dem": 0.4839,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4097,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0289
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0274
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0238
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 24,
+    "pred_dem_share": 0.5066,
+    "win_prob_dem": 0.5502,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4025,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0278
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0275
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0232
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 25,
+    "pred_dem_share": 0.3642,
+    "win_prob_dem": 0.0045,
+    "rating": "Safe R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0943
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0792
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0197
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 26,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0494
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0283
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 27,
+    "pred_dem_share": 0.4364,
+    "win_prob_dem": 0.1106,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3556,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0733
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0312
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 28,
+    "pred_dem_share": 0.5568,
+    "win_prob_dem": 0.8627,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5665,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0275
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0184
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0163
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 29,
+    "pred_dem_share": 0.6323,
+    "win_prob_dem": 0.9945,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7141,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.069
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0272
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 30,
+    "pred_dem_share": 0.6487,
+    "win_prob_dem": 0.9979,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7748,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0966
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0191
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0174
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 31,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0488
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0288
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 32,
+    "pred_dem_share": 0.6246,
+    "win_prob_dem": 0.9917,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6536,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0634
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0244
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.02
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 33,
+    "pred_dem_share": 0.6679,
+    "win_prob_dem": 0.9994,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7376,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1018
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0306
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 34,
+    "pred_dem_share": 0.5649,
+    "win_prob_dem": 0.8939,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5438,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0132
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 35,
+    "pred_dem_share": 0.6667,
+    "win_prob_dem": 0.9993,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7258,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1012
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.03
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 36,
+    "pred_dem_share": 0.4161,
+    "win_prob_dem": 0.0534,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3054,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.087
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0373
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0217
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 37,
+    "pred_dem_share": 0.6894,
+    "win_prob_dem": 0.9999,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7854,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1077
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0441
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0184
+      }
+    ]
+  },
+  {
+    "state_po": "TX",
+    "district": 38,
+    "pred_dem_share": 0.4769,
+    "win_prob_dem": 0.3285,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3607,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0435
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0254
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0247
+      }
+    ]
+  },
+  {
+    "state_po": "UT",
+    "district": 1,
+    "pred_dem_share": 0.4636,
+    "win_prob_dem": 0.2423,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3303,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0479
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0327
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0227
+      }
+    ]
+  },
+  {
+    "state_po": "UT",
+    "district": 2,
+    "pred_dem_share": 0.4739,
+    "win_prob_dem": 0.3081,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3629,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0441
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0276
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0242
+      }
+    ]
+  },
+  {
+    "state_po": "UT",
+    "district": 3,
+    "pred_dem_share": 0.4636,
+    "win_prob_dem": 0.2423,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3144,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0479
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0327
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0227
+      }
+    ]
+  },
+  {
+    "state_po": "UT",
+    "district": 4,
+    "pred_dem_share": 0.4424,
+    "win_prob_dem": 0.1339,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3463,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0729
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0284
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "VT",
+    "district": 0,
+    "pred_dem_share": 0.6534,
+    "win_prob_dem": 0.9984,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6924,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0887
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0315
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 1,
+    "pred_dem_share": 0.5124,
+    "win_prob_dem": 0.5942,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4342,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0266
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0214
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0198
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 2,
+    "pred_dem_share": 0.5264,
+    "win_prob_dem": 0.6945,
+    "rating": "Lean D",
+    "dem_share_2022": 0.483,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0227
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0204
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0109
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 3,
+    "pred_dem_share": 0.6546,
+    "win_prob_dem": 0.9985,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6736,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0893
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0329
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.016
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 4,
+    "pred_dem_share": 0.6534,
+    "win_prob_dem": 0.9984,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6504,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0887
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0315
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 5,
+    "pred_dem_share": 0.5137,
+    "win_prob_dem": 0.6041,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4232,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.027
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0221
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0198
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 6,
+    "pred_dem_share": 0.4691,
+    "win_prob_dem": 0.2759,
+    "rating": "Lean R",
+    "dem_share_2022": 0.355,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.051
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0259
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 7,
+    "pred_dem_share": 0.5702,
+    "win_prob_dem": 0.9115,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5233,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0188
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0152
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0148
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 8,
+    "pred_dem_share": 0.6871,
+    "win_prob_dem": 0.9998,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7481,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.109
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0405
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0184
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 9,
+    "pred_dem_share": 0.4002,
+    "win_prob_dem": 0.0274,
+    "rating": "Safe R",
+    "dem_share_2022": 0.266,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1099
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0295
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0198
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 10,
+    "pred_dem_share": 0.5706,
+    "win_prob_dem": 0.9128,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5326,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0191
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0169
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0149
+      }
+    ]
+  },
+  {
+    "state_po": "VA",
+    "district": 11,
+    "pred_dem_share": 0.6534,
+    "win_prob_dem": 0.9984,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6689,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0902
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0301
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0168
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 1,
+    "pred_dem_share": 0.6352,
+    "win_prob_dem": 0.9953,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6356,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0792
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0212
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0185
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 2,
+    "pred_dem_share": 0.6276,
+    "win_prob_dem": 0.9929,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6018,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0656
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.026
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0187
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 3,
+    "pred_dem_share": 0.5568,
+    "win_prob_dem": 0.8627,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5041,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0254
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0184
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0163
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 4,
+    "pred_dem_share": 0.4188,
+    "win_prob_dem": 0.0593,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3195,
+    "shap": [
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0737
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0521
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0226
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 5,
+    "pred_dem_share": 0.5121,
+    "win_prob_dem": 0.5922,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4035,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.027
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0232
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0183
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 6,
+    "pred_dem_share": 0.5954,
+    "win_prob_dem": 0.9667,
+    "rating": "Safe D",
+    "dem_share_2022": 0.6007,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0415
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0203
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0159
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 7,
+    "pred_dem_share": 0.7426,
+    "win_prob_dem": 1.0,
+    "rating": "Safe D",
+    "dem_share_2022": 0.8575,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.169
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.041
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0202
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 8,
+    "pred_dem_share": 0.5709,
+    "win_prob_dem": 0.9136,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5344,
+    "shap": [
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.017
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.014
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 9,
+    "pred_dem_share": 0.6397,
+    "win_prob_dem": 0.9964,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7175,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0941
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0168
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0135
+      }
+    ]
+  },
+  {
+    "state_po": "WA",
+    "district": 10,
+    "pred_dem_share": 0.6165,
+    "win_prob_dem": 0.9875,
+    "rating": "Safe D",
+    "dem_share_2022": 0.5706,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.0493
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0303
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0194
+      }
+    ]
+  },
+  {
+    "state_po": "WV",
+    "district": 1,
+    "pred_dem_share": 0.4002,
+    "win_prob_dem": 0.0274,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3016,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1099
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0295
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0198
+      }
+    ]
+  },
+  {
+    "state_po": "WV",
+    "district": 2,
+    "pred_dem_share": 0.4192,
+    "win_prob_dem": 0.0601,
+    "rating": "Safe R",
+    "dem_share_2022": 0.3443,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0831
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0399
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0214
+      }
+    ]
+  },
+  {
+    "state_po": "WI",
+    "district": 1,
+    "pred_dem_share": 0.5133,
+    "win_prob_dem": 0.6008,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4551,
+    "shap": [
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0257
+      },
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0238
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0205
+      }
+    ]
+  },
+  {
+    "state_po": "WI",
+    "district": 2,
+    "pred_dem_share": 0.6748,
+    "win_prob_dem": 0.9996,
+    "rating": "Safe D",
+    "dem_share_2022": 0.7251,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.1072
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0318
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0192
+      }
+    ]
+  },
+  {
+    "state_po": "WI",
+    "district": 3,
+    "pred_dem_share": 0.52,
+    "win_prob_dem": 0.6495,
+    "rating": "Toss-up",
+    "dem_share_2022": 0.4815,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.024
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0225
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0193
+      }
+    ]
+  },
+  {
+    "state_po": "WI",
+    "district": 4,
+    "pred_dem_share": 0.6894,
+    "win_prob_dem": 0.9999,
+    "rating": "Safe D",
+    "dem_share_2022": 0.769,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": 0.109
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": 0.0434
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0178
+      }
+    ]
+  },
+  {
+    "state_po": "WI",
+    "district": 5,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3557,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0488
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0288
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "WI",
+    "district": 6,
+    "pred_dem_share": 0.4807,
+    "win_prob_dem": 0.3552,
+    "rating": "Toss-up",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0505
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0251
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0209
+      }
+    ]
+  },
+  {
+    "state_po": "WI",
+    "district": 7,
+    "pred_dem_share": 0.4686,
+    "win_prob_dem": 0.2728,
+    "rating": "Lean R",
+    "dem_share_2022": 0.3812,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.0494
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0283
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0245
+      }
+    ]
+  },
+  {
+    "state_po": "WI",
+    "district": 8,
+    "pred_dem_share": 0.4839,
+    "win_prob_dem": 0.3783,
+    "rating": "Toss-up",
+    "dem_share_2022": null,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.051
+      },
+      {
+        "feature": "unemp_oct",
+        "impact": 0.0247
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0195
+      }
+    ]
+  },
+  {
+    "state_po": "WY",
+    "district": 0,
+    "pred_dem_share": 0.3876,
+    "win_prob_dem": 0.0153,
+    "rating": "Safe R",
+    "dem_share_2022": 0.2633,
+    "shap": [
+      {
+        "feature": "partisan_lean",
+        "impact": -0.1061
+      },
+      {
+        "feature": "dem_share_prev",
+        "impact": -0.0422
+      },
+      {
+        "feature": "gdp_growth_q2",
+        "impact": 0.0183
+      }
+    ]
+  }
+]

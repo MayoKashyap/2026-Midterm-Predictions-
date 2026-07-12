@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectMap 2026 — House Midterm Forecast</title>
+  <meta name="description" content="Data-driven 2026 U.S. House midterm forecast using a fundamentals model trained on 12 years of historical elections." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">ElectMap <span class="year">2026</span></a>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link active">Map</a>
+        <a href="about.html" class="nav-link">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-label">2026 U.S. House Forecast</div>
+        <div class="hero-seats">
+          Democrats projected to win <span id="dem-seats" class="seats-num">—</span> seats
+        </div>
+        <div class="hero-sub">
+          <span class="version-badge">Version 0.1</span>
+          Fundamentals-only model &mdash; trained on 2010&ndash;2022 election results.
+          Live polls and event model coming soon.
+        </div>
+        <div class="hero-updated">Last updated: <span id="update-date">July 2026</span></div>
+      </div>
+    </section>
+
+    <section class="distribution-section">
+      <div class="distribution-inner">
+        <div class="distribution-bar" id="dist-bar">
+          <div class="dist-band safe-d" id="band-safe-d" title="Safe D"></div>
+          <div class="dist-band lean-d" id="band-lean-d" title="Lean D"></div>
+          <div class="dist-band tossup" id="band-tossup" title="Toss-up"></div>
+          <div class="dist-band lean-r" id="band-lean-r" title="Lean R"></div>
+          <div class="dist-band safe-r" id="band-safe-r" title="Safe R"></div>
+          <div class="majority-line" title="218 majority"></div>
+        </div>
+        <div class="distribution-labels" id="dist-labels">
+          <span class="dl safe-d">Safe D <strong id="ct-safe-d">—</strong></span>
+          <span class="dl lean-d">Lean D <strong id="ct-lean-d">—</strong></span>
+          <span class="dl tossup">Toss-up <strong id="ct-tossup">—</strong></span>
+          <span class="dl lean-r">Lean R <strong id="ct-lean-r">—</strong></span>
+          <span class="dl safe-r">Safe R <strong id="ct-safe-r">—</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="map-wrapper">
+      <div id="map"></div>
+
+      <aside class="sidebar" id="sidebar">
+        <button class="sidebar-close" id="sidebar-close" aria-label="Close panel">&times;</button>
+        <div class="sidebar-content" id="sidebar-content">
+          <div class="sidebar-placeholder">
+            <p>Click any district to see details.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="map-legend">
+      <div class="legend-inner">
+        <span class="legend-label-r">More Republican</span>
+        <div class="legend-gradient"></div>
+        <span class="legend-label-d">More Democrat</span>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-note">
+        Version 0.1 &mdash; historical fundamentals only. Predictions are based on a model trained on 2010&ndash;2022 elections using
+        Cook PVI, incumbency, and macroeconomic indicators. Live polls and event adjustments coming in later versions.
+      </p>
+      <p class="footer-credits">
+        Data: MIT Election Lab, Cook Political Report, FRED, Census Bureau &mdash;
+        <a href="about.html">Methodology</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
