@@ -7,15 +7,17 @@
   <meta name="description" content="Data-driven 2026 U.S. House midterm forecast using a fundamentals model trained on 12 years of historical elections." />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <script>(function(){var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);})()</script>
 </head>
 <body>
 
   <header class="site-header">
     <div class="header-inner">
-      <a href="index.html" class="logo">ElectMap <span class="year">2026</span></a>
+      <a href="index.html" class="logo">ElectMap <span class="logo-star">★</span> <span class="year">2026</span></a>
       <nav class="site-nav">
         <a href="index.html" class="nav-link active">Map</a>
         <a href="about.html" class="nav-link">Methodology</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode">☀</button>
       </nav>
     </div>
   </header>
@@ -29,7 +31,7 @@
         </div>
         <div class="hero-sub">
           <span class="version-badge">Version 0.1</span>
-          Fundamentals-only model &mdash; trained on 2010&ndash;2022 election results.
+          Fundamentals-only model: trained on 2010&ndash;2022 election results.
           Live polls and event model coming soon.
         </div>
         <div class="hero-updated">Last updated: <span id="update-date">July 2026</span></div>
@@ -38,13 +40,19 @@
 
     <section class="distribution-section">
       <div class="distribution-inner">
-        <div class="distribution-bar" id="dist-bar">
-          <div class="dist-band safe-d" id="band-safe-d" title="Safe D"></div>
-          <div class="dist-band lean-d" id="band-lean-d" title="Lean D"></div>
-          <div class="dist-band tossup" id="band-tossup" title="Toss-up"></div>
-          <div class="dist-band lean-r" id="band-lean-r" title="Lean R"></div>
-          <div class="dist-band safe-r" id="band-safe-r" title="Safe R"></div>
-          <div class="majority-line" title="218 majority"></div>
+        <div class="bar-wrap">
+          <div class="majority-ticker">
+            <span class="majority-ticker-label">218 majority</span>
+            <div class="majority-ticker-arrow"></div>
+          </div>
+          <div class="distribution-bar" id="dist-bar">
+            <div class="dist-band safe-d" id="band-safe-d" title="Safe D"></div>
+            <div class="dist-band lean-d" id="band-lean-d" title="Lean D"></div>
+            <div class="dist-band tossup" id="band-tossup" title="Toss-up"></div>
+            <div class="dist-band lean-r" id="band-lean-r" title="Lean R"></div>
+            <div class="dist-band safe-r" id="band-safe-r" title="Safe R"></div>
+            <div class="majority-line"></div>
+          </div>
         </div>
         <div class="distribution-labels" id="dist-labels">
           <span class="dl safe-d">Safe D <strong id="ct-safe-d">—</strong></span>
@@ -87,6 +95,12 @@
       <p class="footer-credits">
         Data: MIT Election Lab, Cook Political Report, FRED, Census Bureau &mdash;
         <a href="about.html">Methodology</a>
+      </p>
+      <p class="footer-credits" style="margin-top:0.3rem;">
+        Built by <strong><a href="https://mvkashyap.vercel.app/" target="_blank" rel="noopener">Mayur Kashyap</a></strong>
+      </p>
+      <p class="footer-disclaimer">
+        These predictions do not reflect my political views in any way. This project was made to pursue my interests in predictive modeling.
       </p>
     </div>
   </footer>

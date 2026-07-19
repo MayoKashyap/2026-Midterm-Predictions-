@@ -50,6 +50,7 @@ const RATING_CSS = {
 
 let predictions = [];
 let lookup = {};        // "AL-1" → prediction object
+let history = {};       // "AL-1" → [{year, dem_share}, ...]
 let geojsonLayer = null;
 let map = null;
 
@@ -151,18 +152,19 @@ function showSidebar(pred, name) {
   }
 
   const ratingCss = RATING_CSS[pred.rating] || 'rating-tossup';
-  const winPct    = (pred.win_prob_dem * 100).toFixed(1);
+  const demWinPct = (pred.win_prob_dem * 100).toFixed(1);
+  const repWinPct = ((1 - pred.win_prob_dem) * 100).toFixed(1);
   const demShare  = (pred.pred_dem_share * 100).toFixed(1);
 
-  const actual2022 = pred.dem_share_2022 != null
-    ? `<div class="sd-stat">
-        <span class="sd-stat-label">2022 Actual (Dem)</span>
-        <span class="sd-stat-value">${(pred.dem_share_2022 * 100).toFixed(1)}%</span>
-       </div>`
-    : '';
+  const histKey = predKey(pred.state_po, pred.district);
+  const distHistory = history[histKey] || [];
 
-  const probBarColor = pred.win_prob_dem >= 0.5 ? 'var(--safe-d)' : 'var(--safe-r)';
-  const probBarWidth = Math.round(pred.win_prob_dem * 100);
+  const histRows = distHistory.map(h => `
+    <tr>
+      <td>${h.year}</td>
+      <td class="td-dem">${(h.dem_share * 100).toFixed(1)}%</td>
+      <td class="td-rep">${((1 - h.dem_share) * 100).toFixed(1)}%</td>
+    </tr>`).join('');
 
   const shapHtml = buildShapHtml(pred.shap || []);
 
@@ -170,28 +172,35 @@ function showSidebar(pred, name) {
     <div class="sd-name">${name}</div>
     <span class="sd-rating ${ratingCss}">${pred.rating}</span>
 
-    <div class="sd-stat-group">
-      <div class="sd-stat">
-        <span class="sd-stat-label">Dem Win Probability</span>
-        <span class="sd-stat-value">${winPct}%</span>
+    <div class="sd-prob-bar-wrap" style="margin:0.75rem 0 1rem">
+      <div class="sd-prob-bar-track" style="background:var(--safe-r)">
+        <div class="sd-prob-bar-fill" style="width:${demWinPct}%; background:var(--safe-d);"></div>
       </div>
-      <div class="sd-prob-bar-wrap">
-        <div class="sd-prob-bar-track">
-          <div class="sd-prob-bar-fill" style="width:${probBarWidth}%; background:${probBarColor};"></div>
-        </div>
+      <div style="display:flex;justify-content:space-between;font-size:0.78rem;margin-top:0.3rem">
+        <span style="color:var(--safe-d)">Dem ${demWinPct}%</span>
+        <span style="color:var(--safe-r)">Rep ${repWinPct}%</span>
       </div>
-
-      <div class="sd-stat">
-        <span class="sd-stat-label">Projected Dem Vote Share</span>
-        <span class="sd-stat-value">${demShare}%</span>
-      </div>
-      ${actual2022}
     </div>
+
+    <table class="sd-table">
+      <thead>
+        <tr><th>Year</th><th class="td-dem">Dem</th><th class="td-rep">Rep</th></tr>
+      </thead>
+      <tbody>
+        <tr class="sd-table-projected">
+          <td>2026 Projected</td>
+          <td class="td-dem">${demShare}%</td>
+          <td class="td-rep">${(100 - parseFloat(demShare)).toFixed(1)}%</td>
+        </tr>
+        ${histRows}
+      </tbody>
+    </table>
 
     <div class="sd-section-head">Top Predictive Factors</div>
     ${shapHtml}
   `;
 }
+
 
 function buildShapHtml(shapArr) {
   if (!shapArr.length) return '<p style="font-size:.8rem;color:var(--text-muted)">No factor data.</p>';
@@ -248,17 +257,39 @@ function computeHeadline(preds) {
 async function main() {
   initMap();
 
-  const [preds, geojson] = await Promise.all([
+  const [preds, geojson, hist] = await Promise.all([
     fetch('data/predictions_2026.json').then(r => r.json()),
-    fetch('data/districts.geojson').then(r => r.json())
+    fetch('data/districts.geojson').then(r => r.json()),
+    fetch('data/history.json').then(r => r.json())
   ]);
 
   predictions = preds;
+  history = hist;
   preds.forEach(p => { lookup[predKey(p.state_po, p.district)] = p; });
 
   addDistrictLayer(geojson);
   computeHeadline(preds);
 }
+
+/* ── Theme toggle ────────────────────────────────────────── */
+(function() {
+  const btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+
+  function applyTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    btn.textContent = t === 'dark' ? '☀' : '☾';
+    localStorage.setItem('theme', t);
+  }
+
+  const stored = localStorage.getItem('theme') || 'dark';
+  applyTheme(stored);
+
+  btn.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+  });
+})();
 
 main().catch(err => {
   console.error('ElectMap load error:', err);

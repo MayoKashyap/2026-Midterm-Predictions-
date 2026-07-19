@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Methodology — ElectMap 2026</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script>(function(){var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);})()</script>
   <link rel="stylesheet" href="css/about.css" />
 </head>
 <body>
 
   <header class="site-header">
     <div class="header-inner">
-      <a href="index.html" class="logo">ElectMap <span class="year">2026</span></a>
+      <a href="index.html" class="logo">ElectMap <span class="logo-star">★</span> <span class="year">2026</span></a>
       <nav class="site-nav">
         <a href="index.html" class="nav-link">Map</a>
         <a href="about.html" class="nav-link active">Methodology</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark mode">☀</button>
       </nav>
     </div>
   </header>
@@ -25,34 +27,133 @@
       <header class="about-header">
         <div class="about-label">About this forecast</div>
         <h1 class="about-title">Methodology</h1>
+        <p class="about-author">By <strong><a href="https://mvkashyap.vercel.app/" target="_blank" rel="noopener">Mayur Kashyap</a></strong></p>
       </header>
 
       <article class="about-body">
 
-        <section class="about-section">
-          <h2>Motivation</h2>
-          <p></p>
-        </section>
+        <details class="accordion" open>
+          <summary class="accordion-summary">Motivation</summary>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+              <p>For my entire life, I've been really interested in simulation-type games. As a kid, I remember playing life/space/geography simulators to waste time. For much of the recent past, this interest has shifted towards predictive modeling: I oftentimes question why changing the parameter of XYZ affects the outcome of XYZ.</p>
+              <p>As an Applied Mathematics student, I've realized that predictions can often be modeled through probability and machine learning — two areas I want to pursue further. I'm genuinely interested in the math behind these subjects (I know, the two aren't entirely orthogonal).</p>
+              <p>Now you might ask, what does this have to do with politics, specifically elections?</p>
+              <p>It's a long story, but TLDR, I've been keeping up with politics for the last couple years (as of writing this, Trump is about to give a primetime address in six hours about "free and fair" elections). More recently, I've been seeing predictions on the midterm elections and the 2028 election; to pass time over the last weeks, I've been making crazy predictions for the 2028 elections, despite there not being official tickets.</p>
+              <figure class="motivation-figure">
+                <img src="images/2028-map.png" alt="A 270toWin map showing a hypothetical 2028 presidential election outcome" class="motivation-img" />
+                <figcaption>2028 Election Map I created, which is based off of vibes (I was bored).</figcaption>
+              </figure>
+              <p>So, I thought it would be interesting to make my own prediction map using some machine learning techniques I've been learning.</p>
+            </div>
+          </div>
+        </details>
 
-        <section class="about-section">
-          <h2>How It Works</h2>
-          <p></p>
-        </section>
+        <details class="accordion">
+          <summary class="accordion-summary">How It Works</summary>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
 
-        <section class="about-section">
-          <h2>Data Sources</h2>
-          <p></p>
-        </section>
+              <p>ElectMap breaks the forecast into four separate layers: each one builds on the last.</p>
 
-        <section class="about-section">
-          <h2>Backtest Results</h2>
-          <p></p>
-        </section>
+              <h3 class="section-subhead">Data Pipeline</h3>
+              <p>I first started with raw historical House results going back to 2010 from the MIT Election Lab; anything before then reflects a different political environment. This data was messy, as there was a lot of different district numbering across redistricting cycles, missing incumbency info, inconsistent state abbreviations, so I had to end up doing a lot of cleaning.</p>
+              <p>I then merged it with the Cook Political Report's Partisan Voting Index (a measure of how red or blue a district leans by nature), macroeconomic indicators from the Federal Reserve (GDP/unemployment), and a flag for districts that were redrawn after the 2020 Census. The end result is one clean table, one row per district per election year, 2010–2022, with every feature the model needs. This step was incredibly boring but it was essential.</p>
 
-        <section class="about-section">
-          <h2>Known Limitations</h2>
-          <p></p>
-        </section>
+              <h3 class="section-subhead">Layer 1: Fundamentals Model</h3>
+              <p>The fundamentals model answers a simple question: what does history alone tell us about each district, before a single poll is conducted? It's trained on House election results from 2010 to 2022: six election cycles, 435 districts each, with nine features per row. The training algorithm is XGBoost, which builds hundreds of decision trees sequentially where each tree self-corrects the error of the one before it. The result is a model that learns which combinations of features best predict Democrat vote share in a given district in a given year.</p>
+              <p>Every row in the training data represents a district in one election year. Here's what goes in:</p>
+              <ul class="feature-list">
+                <li><strong>Partisan Lean (Cook PVI)</strong></li>
+                <li><strong>Prior Democrat Vote Share:</strong> [0, 1], where the larger values represent higher concentrations of Democrat votes.</li>
+                <li><strong>Incumbency:</strong> {-1, 0, 1}, where -1 is a Republican, 0 is an open seat, and 1 is a Democrat.</li>
+                <li><strong>Presidential Approval</strong> during midterm elections.</li>
+                <li><strong>GDP Growth (Q2)</strong></li>
+                <li><strong>GDP Log Growth</strong></li>
+                <li><strong>Unemployment (October)</strong></li>
+                <li><strong>Midterm Year Penalty:</strong> {0, 1}, where 0 is a presidential election and 1 is a midterm election.</li>
+                <li><strong>Redistricted Flag:</strong> {0, 1}, where 0 means the district hasn't been redistricted after 2020, and 1 otherwise.</li>
+              </ul>
+
+              <h3 class="section-subhead">SHAP Values</h3>
+              <p>Once the model is trained, I use SHAP (SHapley Additive exPlanations) to explain every individual prediction. SHAP comes from cooperative game theory, and it basically asks: for this district, how much did each feature contribute to pushing the prediction above or below the baseline? The contributions add up exactly to the prediction, so it's not an approximation.</p>
+              <p>For most of the districts, Cook PVI and prior vote shares dominate, which makes a lot of sense, since district-level political geography is the strongest signal. For more competitive districts, incumbency and presidential approval have a more obvious effect.</p>
+              <figure class="about-figure">
+                <img src="images/shap_waterfall.png" alt="SHAP waterfall plot for a competitive district" class="about-img" />
+                <figcaption>SHAP waterfall for a Lean D district in the 2022 hold-out set (predicted 57.0%, actual 56.9%). Each bar shows how much a feature pushed the prediction above or below the baseline expected value.</figcaption>
+              </figure>
+              <figure class="about-figure">
+                <img src="images/shap_summary.png" alt="SHAP feature importance summary plot" class="about-img" />
+                <figcaption>Global SHAP feature importance across all 2022 hold-out districts. Each dot is one district; color shows feature value (red = high, blue = low).</figcaption>
+              </figure>
+              <p>When you click any district on the map, the sidebar shows the top three SHAP factors for that specific prediction: which features pushed it toward Democrats, which pushed it toward Republicans, and by how much.</p>
+
+              <h3 class="section-subhead">Converting Vote Share to Win Probability</h3>
+              <p>The model outputs a predicted Democrat vote share; however, a single number doesn't show how uncertain that prediction is. To convert it to a win probability, I model the uncertainty as a normal distribution centered on the prediction with a standard deviation of 5.2 percentage points, derived from historical forecast errors across the backtest cycles (see that section for more information).</p>
+              <p>The win probability is then the area under that curve, above 50%, which is the probability that the true outcome lands on the Democrat side of the majority threshold. Mathematically: Φ((ŷ - 0.5) / σ), where ŷ is the predicted vote share, σ = 0.052, and Φ is the standard normal CDF. A prediction of 52.5% becomes roughly a 73% win probability.</p>
+              <figure class="about-figure">
+                <img src="images/backtest_scatter.png" alt="Backtest scatter plot: predicted vs actual vote share" class="about-img" />
+                <figcaption>Predicted vs. actual Democrat vote share on the 2022 hold-out set. Points along the diagonal are correct predictions; RMSE = 2.86 percentage points.</figcaption>
+              </figure>
+
+              <h3 class="section-subhead">Layer 2: Event Impact Model <span class="coming-soon">Coming Soon</span></h3>
+              <p></p>
+
+              <h3 class="section-subhead">Layer 3: Bayesian Poll Aggregator <span class="coming-soon">Coming Soon</span></h3>
+              <p></p>
+
+              <h3 class="section-subhead">Layer 4: Election Simulator <span class="coming-soon">Coming Soon</span></h3>
+              <p></p>
+
+            </div>
+          </div>
+        </details>
+
+        <details class="accordion">
+          <summary class="accordion-summary">Data Sources</summary>
+          <div class="accordion-body">
+            <div class="accordion-body-inner">
+
+              <h3 class="section-subhead">Used in Version 0.1</h3>
+              <ul class="feature-list">
+                <li><strong>MIT Election Lab</strong> — historical U.S. House election results going back to 1976. The primary source for all vote share training data from 2010–2022.</li>
+                <li><strong>Cook Political Report PVI (119th Congress)</strong> — partisan lean per congressional district, recalculated after the 2020 Census redistricting. The single most predictive feature in the fundamentals model.</li>
+                <li><strong>FRED (Federal Reserve Economic Data)</strong> — macroeconomic indicators including GDP growth (Q2) and unemployment (October), pulled via the FRED API and auto-refreshed.</li>
+                <li><strong>FEC Candidate Filings + Ballotpedia</strong> — used to determine 2026 incumbency status for all 435 districts: who is running, who is retiring, and which seats are open.</li>
+                <li><strong>Redistricting Data Hub</strong> — identifies which districts were redrawn after the 2020 Census, used to flag cases where the prior vote share is not a reliable signal.</li>
+                <li><strong>U.S. Census Bureau TIGER/Line (GENZ2024)</strong> — congressional district boundary shapefiles for the 119th Congress, including the five states with court-ordered redistricting for the 2024 cycle. Used to render the Leaflet map.</li>
+              </ul>
+
+              <h3 class="section-subhead">Coming in Later Versions</h3>
+              <ul class="feature-list">
+                <li><strong>FiveThirtyEight polling archive</strong> — historical House and generic ballot polls for 2018, 2020, and 2022, used to validate the Bayesian poll aggregator and compare forecast accuracy.</li>
+                <li><strong>CCES (Cooperative Congressional Election Study)</strong> — a 60,000-respondent voter survey that includes validated vote history, used to train the likely-voter logistic regression model.</li>
+                <li><strong>GDELT + NewsAPI</strong> — event ingestion sources for the event impact model. GDELT provides a global database of news events; NewsAPI supplements with headline data to classify political events and estimate their effect on polling.</li>
+              </ul>
+
+            </div>
+          </div>
+        </details>
+
+        <details class="accordion">
+          <summary class="accordion-summary">Backtest Results</summary>
+          <div class="accordion-body"><div class="accordion-body-inner"><p></p></div></div>
+        </details>
+
+        <details class="accordion">
+          <summary class="accordion-summary">2026 Midterm Results</summary>
+          <div class="accordion-body"><div class="accordion-body-inner"><p></p></div></div>
+        </details>
+
+        <details class="accordion">
+          <summary class="accordion-summary">Known Limitations</summary>
+          <div class="accordion-body"><div class="accordion-body-inner"><p></p></div></div>
+        </details>
+
+        <details class="accordion accordion-no-toggle">
+          <summary class="accordion-summary">ML Blog <span class="coming-soon">Coming Soon</span></summary>
+          <div class="accordion-body"><div class="accordion-body-inner"><p></p></div></div>
+        </details>
 
       </article>
 
@@ -72,5 +173,54 @@
     </div>
   </footer>
 
+  <script>
+    (function() {
+      const btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      function applyTheme(t) {
+        document.documentElement.setAttribute('data-theme', t);
+        btn.textContent = t === 'dark' ? '☀' : '☾';
+        localStorage.setItem('theme', t);
+      }
+      applyTheme(localStorage.getItem('theme') || 'dark');
+      btn.addEventListener('click', () => {
+        applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+
+    (function() {
+      document.querySelectorAll('.accordion').forEach(details => {
+        const summary = details.querySelector('.accordion-summary');
+        const body    = details.querySelector('.accordion-body');
+        if (!summary || !body) return;
+
+        if (details.open) {
+          body.style.maxHeight = body.scrollHeight + 'px';
+          body.style.opacity   = '1';
+        }
+
+        summary.addEventListener('click', e => {
+          e.preventDefault();
+          if (details.open) {
+            body.style.maxHeight = body.scrollHeight + 'px';
+            requestAnimationFrame(() => requestAnimationFrame(() => {
+              body.style.maxHeight = '0';
+              body.style.opacity   = '0';
+            }));
+            setTimeout(() => details.removeAttribute('open'), 380);
+          } else {
+            details.setAttribute('open', '');
+            body.style.maxHeight = '0';
+            body.style.opacity   = '0';
+            requestAnimationFrame(() => requestAnimationFrame(() => {
+              body.style.maxHeight = body.scrollHeight + 'px';
+              body.style.opacity   = '1';
+            }));
+            setTimeout(() => { body.style.maxHeight = 'none'; }, 380);
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
