@@ -185,6 +185,32 @@ Clean merged district-year dataset (2010–2022) with vote share, Cook PVI, FRED
 
 ---
 
+### M3-RAG — "Ask the Forecast" RAG Chatbot
+**Goal:** A retrieval-augmented chatbot on the site that answers plain-English questions about the forecast, grounded in the project's own data and writeup — not a general-purpose chatbot. Secondary goal: hands-on AI engineering practice (embeddings, vector similarity, retrieval-augmented generation) as a learning exercise, separate from the forecasting methodology itself.
+
+**Scope note:** this milestone is a site feature addition, not part of the four-layer forecasting architecture. It's read-only — it explains existing predictions, it does not feed back into or influence any model output. It is also the one part of the site that isn't fully static: answering a live question requires a real-time embed → retrieve → generate call, which a static JSON export can't do. Supabase Edge Functions hold the Voyage/Anthropic API keys server-side for this feature specifically — the rest of the site's architecture (Python pipeline → static JSON → static frontend, no live Python process) is unchanged.
+
+**Tasks:**
+- Build the retrieval corpus from content that already exists:
+  - Methodology page content (backtest results, architecture explanation, known limitations)
+  - Per-district JSON records (from M2's `predictions_2026.json`) converted into natural-language paragraphs — one summary per district covering predicted vote share, win probability, top 3 SHAP factors, 2022 actual result
+  - (Revisit once M4 lands): event headlines relevant to a given race
+- Chunk the corpus into retrievable pieces
+- Embed each chunk using Voyage AI's embedding API
+- Store embeddings in Supabase (Postgres + `pgvector` extension) rather than a local NumPy array — deliberate choice for hands-on experience with a real vector database, over the originally-planned hand-rolled-first approach
+- Retrieval step: embed the user's question, use pgvector's cosine-distance operator to return top-k most similar chunks
+- Generation step: pass retrieved chunks as grounding context into a Claude API call, generate the answer — run inside a Supabase Edge Function so API keys never reach the client
+- Wire into the site as a chat UI (district drill-down panel or a standalone chat box) that calls the Edge Function
+- Sanity check: ask it several questions with known correct answers (e.g. "what's this district's win probability") and confirm it doesn't hallucinate when the retrieved context doesn't contain the answer
+
+**Done condition:** Working chat interface on the site, answering real questions grounded in retrieved content via Supabase-backed retrieval, with a visible "I don't know" behavior when the corpus doesn't contain relevant information (rather than guessing).
+
+**Math to teach:** what an embedding vector represents geometrically, cosine similarity (dot product over norms) and why it's the right similarity measure for embeddings, why retrieval-augmented generation reduces hallucination compared to an ungrounded LLM call.
+
+**Stretch goal (post-done-condition):** upgrade from always-retrieve to agentic retrieval — instead of automatically searching `chunks` before every answer, give Claude a `search_chunks` tool (backed by the `match_chunks` Supabase function) and let it decide when to call it, including calling it multiple times with refined queries for messier multi-part questions (e.g. "compare these three districts"). Not required for the done condition above — the basic retrieve-then-generate version ships first; this is a real enhancement to layer on afterward, not a replacement for it.
+
+---
+
 ### M4 — Event Impact Model
 **Goal:** Trained model quantifying how much a political event shifts the generic ballot and how long that shift persists.
 
@@ -346,6 +372,9 @@ Post on Tuesday or Wednesday mornings for highest LinkedIn engagement. Under 200
 | Fundamentals model | XGBoost, scikit-learn |
 | Model explanation | SHAP |
 | Likely-voter model | scikit-learn LogisticRegression |
+| RAG embeddings | Voyage AI embeddings API |
+| RAG vector store | Supabase (Postgres + `pgvector`) |
+| RAG generation | Claude API, called from a Supabase Edge Function |
 | Event classification | Claude API (claude-sonnet-4-6) |
 | Event impact regression | scikit-learn Ridge |
 | Bayesian inference | PyMC |

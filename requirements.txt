@@ -4,6 +4,8 @@ scipy
 xgboost
 scikit-learn
 shap
+joblib
+matplotlib
 pymc
 arviz
 plotly
@@ -11,3 +13,8 @@ streamlit
 jupyter
 requests
 fredapi
+beautifulsoup4
+python-dotenv
+voyageai
+supabase
+anthropic
