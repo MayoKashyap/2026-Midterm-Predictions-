@@ -1,12 +1,15 @@
 import os
 
 import joblib
+import matplotlib.pyplot as plt
 import pandas as pd
+from sklearn.calibration import calibration_curve
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
 RAW = os.path.expanduser('~/Documents/2026MLpredictor/data/raw')
 MODELS = os.path.expanduser('~/Documents/2026MLpredictor/models')
+REPORTS = os.path.expanduser('~/Documents/2026MLpredictor/reports')
 
 CCES_COLUMNS = ['birthyr', 'educ', 'pid7', 'newsint', 'inputstate', 'CC18_401', 'CL_matched', 'CL_2018gvm']
 
@@ -78,13 +81,34 @@ def train_and_evaluate(features, target):
     coefs = pd.Series(model.coef_[0], index=features.columns).sort_values()
     print(coefs.loc[['age', 'educ_ord', 'pid7_ord', 'newsint_ord']], flush=True)
 
-    return model
+    return model, X_test, y_test
+
+
+def plot_calibration(model, X_test, y_test):
+    probs = model.predict_proba(X_test)[:, 1]
+    actual_rate, predicted_rate = calibration_curve(y_test, probs, n_bins=10)
+
+    for p, a in zip(predicted_rate, actual_rate):
+        print(f'predicted {p:.3f}  ->  actual {a:.3f}', flush=True)
+
+    plt.plot(predicted_rate, actual_rate, marker='o', label='model')
+    plt.plot([0, 1], [0, 1], linestyle='--', color='gray', label='perfect calibration')
+    plt.xlabel('mean predicted probability')
+    plt.ylabel('actual voted rate')
+    plt.title('Likely-Voter Model Calibration')
+    plt.legend()
+
+    os.makedirs(REPORTS, exist_ok=True)
+    out_path = os.path.join(REPORTS, 'likely_voter_calibration.png')
+    plt.savefig(out_path, dpi=150, bbox_inches='tight')
+    print(f'saved calibration plot to {out_path}', flush=True)
 
 
 def main():
     cces18 = load_verified_respondents()
     features, target = build_features(cces18)
-    model = train_and_evaluate(features, target)
+    model, X_test, y_test = train_and_evaluate(features, target)
+    plot_calibration(model, X_test, y_test)
 
     os.makedirs(MODELS, exist_ok=True)
     joblib.dump({'model': model, 'columns': list(features.columns)}, os.path.join(MODELS, 'likely_voter_model.joblib'))
